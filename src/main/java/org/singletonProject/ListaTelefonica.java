@@ -4,6 +4,16 @@ import java.util.List;
 
 public class ListaTelefonica {
 
+    public void testContatos(){
+        Contato a = new Contato("a","001");
+        Contato b = new Contato("b","002");
+        Contato c = new Contato("c","003");
+        this.contatos.add(a);
+        this.contatos.add(b);
+        this.contatos.add(c);
+        exibirContatos();
+    }
+
     private static volatile ListaTelefonica instance;
     private List<Contato> contatos;
 
@@ -26,9 +36,12 @@ public class ListaTelefonica {
         this.contatos.add(contato);
     }
     
-    public void removerContato(Contato contato) {
-    contatos.remove(contato);
-}
+    public void removerContato(String value) {
+        for (Contato x : contatos){
+            if(x.getTelefone() == value){
+            }
+        }
+    }
 
     public void exibirContatos() {
 
