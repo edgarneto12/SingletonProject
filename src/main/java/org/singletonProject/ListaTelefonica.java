@@ -38,8 +38,8 @@ public class ListaTelefonica {
     
     public void removerContato(String name, String phoneNumber){
 
-        System.out.println(name);
-        System.out.println(phoneNumber);
+        Contato ab = new Contato("b","2");
+       this.contatos.remove(ab);
 
 //        System.out.println(phoneNumber);
 //        for (Contato contato : contatos){
