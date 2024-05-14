@@ -1,6 +1,6 @@
 package org.singletonProject;
 
-public class Contato {
+public class Contato implements Comparable<Contato> {
     private String nome;
     private String telefone;
 
@@ -28,5 +28,10 @@ public class Contato {
     @Override
     public String toString() {
         return "Contato [nome=" + nome + ", telefone=" + telefone + "]";
+    }
+
+    @Override
+    public int compareTo(Contato outro) {
+        return this.nome.compareTo(outro.nome);
     }
 }
