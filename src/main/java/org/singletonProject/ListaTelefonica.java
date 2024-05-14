@@ -36,19 +36,18 @@ public class ListaTelefonica {
         this.contatos.add(contato);
     }
     
-    public void removerContato(String name, String phoneNumber){
+    public void removerContato(int aRemove){
 
-        Contato ab = new Contato("b","2");
-       this.contatos.remove(ab);
-
-//        System.out.println(phoneNumber);
-//        for (Contato contato : contatos){
-//            System.out.println(phoneNumber);
-//            System.out.println(contato.getTelefone());
-//            if (phoneNumber == contato.getTelefone() ){
-//                System.out.println("r");
-//            }
-//        }
+        //Transforma remove em index
+        int remove = aRemove - 1;
+        System.out.println(aRemove);
+        System.out.println(remove);
+        //Remove o contato
+        if (remove >= 0 && remove < contatos.size()) {
+            contatos.remove(remove);
+        } else {
+            System.out.println("Número não está na lista.");
+        }
     }
 
     public void exibirContatos() {
@@ -58,7 +57,7 @@ public class ListaTelefonica {
         } else {
             System.out.println("Contatos registrados : ");
             for (Contato contato : this.contatos) {
-                System.out.println(contato);
+                System.out.println((contatos.indexOf(contato) + 1) + "° " + contato);
             }
         }
     }
