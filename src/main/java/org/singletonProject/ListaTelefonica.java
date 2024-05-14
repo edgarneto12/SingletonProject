@@ -25,6 +25,10 @@ public class ListaTelefonica {
     public void adicionarContato(Contato contato) {
         this.contatos.add(contato);
     }
+    
+    public void removerContato(ContatoTelefone contato) {
+    contatos.remove(contato);
+}
 
     public void exibirContatos() {
         for (Contato contato : this.contatos) {
