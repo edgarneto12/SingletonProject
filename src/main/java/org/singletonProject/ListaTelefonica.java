@@ -26,13 +26,18 @@ public class ListaTelefonica {
         this.contatos.add(contato);
     }
     
-    public void removerContato(ContatoTelefone contato) {
+    public void removerContato(Contato contato) {
     contatos.remove(contato);
 }
 
     public void exibirContatos() {
-        for (Contato contato : this.contatos) {
-            System.out.println(contato);
+
+        if (contatos.isEmpty()) {
+            System.out.println("Nenhum contato registrado");
+        } else {
+            for (Contato contato : this.contatos) {
+                System.out.println(contato);
+            }
         }
     }
 }

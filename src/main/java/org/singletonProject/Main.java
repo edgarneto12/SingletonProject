@@ -10,8 +10,9 @@ public class Main {
         while (option != 3) {
             System.out.println("\nSistema de Diretório Telefônico");
             System.out.println("1. Adicionar Contato");
-            System.out.println("2. Exibir Contatos");
-            System.out.println("3. Sair");
+            System.out.println("2. Remover Contato");
+            System.out.println("3. Exibir Contatos");
+            System.out.println("4. Sair");
             System.out.print("Digite sua opção: ");
             option = scanner.nextInt();
 
@@ -28,9 +29,16 @@ public class Main {
                     listaTelefonica.adicionarContato(contato);
                     break;
                 case 2:
-                    listaTelefonica.exibirContatos();
+//                    System.out.print("Digite o número do contato: ");
+//                     contato value = scanner.nextLine();
+//
+//
+//                    listaTelefonica.removerContato(value);
                     break;
                 case 3:
+                    listaTelefonica.exibirContatos();
+                    break;
+                case 4:
                     System.out.println("Saindo...");
                     break;
                 default:
