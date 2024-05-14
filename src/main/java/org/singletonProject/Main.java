@@ -35,7 +35,7 @@ public class Main {
                 case 2:
                     scanner.nextLine();
                     System.out.print("Digite o nome do contato: ");
-                    name = scanner.nextLine(); // Use apenas nextLine() para ler a entrada
+                    name = scanner.nextLine();
 
                     System.out.print("Digite o número de telefone do contato: ");
                     phoneNumber = scanner.nextLine();
