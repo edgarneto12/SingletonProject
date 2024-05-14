@@ -1,4 +1,5 @@
 package org.singletonProject;
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,14 +41,14 @@ public class ListaTelefonica {
 
         //Transforma remove em index
         int remove = aRemove - 1;
-        System.out.println(aRemove);
-        System.out.println(remove);
         //Remove o contato
         if (remove >= 0 && remove < contatos.size()) {
             contatos.remove(remove);
         } else {
             System.out.println("Número não está na lista.");
         }
+        System.out.println("Contato removido!");
+        exibirContatos();
     }
 
     public void exibirContatos() {
