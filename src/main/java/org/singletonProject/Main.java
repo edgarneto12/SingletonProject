@@ -20,7 +20,6 @@ public class Main {
             System.out.println("4. Sair");
             System.out.print("Digite sua opção: ");
             option = scanner.nextInt();
-
             switch (option) {
                 case 1:
                     System.out.print("Digite o nome do contato: ");
@@ -34,8 +33,10 @@ public class Main {
                     listaTelefonica.adicionarContato(contato);
                     break;
                 case 2:
-                    phoneNumber = scanner.nextLine();
-                    listaTelefonica.removerContato(phoneNumber);
+                    System.out.print("Digite o número de telefone do contato: ");
+                    scanner.next();
+                    String value = scanner.nextLine();
+                    listaTelefonica.removerContato(value);
                     break;
                 case 3:
                     listaTelefonica.exibirContatos();
