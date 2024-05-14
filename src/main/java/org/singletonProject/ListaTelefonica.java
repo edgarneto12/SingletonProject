@@ -36,11 +36,11 @@ public class ListaTelefonica {
         this.contatos.add(contato);
     }
     
-    public void removerContato(String phoneNumber{
+    public void removerContato(String name, String phoneNumber){
 
+        System.out.println(name);
+        System.out.println(phoneNumber);
 
-
-//        System.out.println('x');
 //        System.out.println(phoneNumber);
 //        for (Contato contato : contatos){
 //            System.out.println(phoneNumber);

@@ -33,10 +33,14 @@ public class Main {
                     listaTelefonica.adicionarContato(contato);
                     break;
                 case 2:
+                    scanner.nextLine();
+                    System.out.print("Digite o nome do contato: ");
+                    name = scanner.nextLine(); // Use apenas nextLine() para ler a entrada
+
                     System.out.print("Digite o número de telefone do contato: ");
-                    scanner.next();
-                    String value = scanner.nextLine();
-                    listaTelefonica.removerContato(value);
+                    phoneNumber = scanner.nextLine();
+
+                    listaTelefonica.removerContato(name, phoneNumber);
                     break;
                 case 3:
                     listaTelefonica.exibirContatos();
