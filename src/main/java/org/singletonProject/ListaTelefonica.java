@@ -1,6 +1,7 @@
 package org.singletonProject;
 import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListaTelefonica {
@@ -52,7 +53,7 @@ public class ListaTelefonica {
     }
 
     public void exibirContatos() {
-
+        Collections.sort(contatos);
         if (contatos.isEmpty()) {
             System.out.println("Nenhum contato registrado");
         } else {
