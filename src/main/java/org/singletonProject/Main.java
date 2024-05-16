@@ -49,7 +49,7 @@ public class Main {
                 case 2:
                     listaTelefonica.exibirContatos();
                     scanner.nextLine();
-                    System.out.print("Digite qual o contato : ");
+                    System.out.print("Digite o número correspondente \nao contato que deseja apagar: ");
                     int aRemove = scanner.nextInt();
 
                     listaTelefonica.removerContato(aRemove);
@@ -60,9 +60,6 @@ public class Main {
                 case 4:
                     System.out.println("Saindo...");
                     break;
-                //case 5:
-//                    listaTelefonica.testContatos();
-//                    break;
                 default:
                     System.out.println("Opção inválida, por favor tente novamente.");
             }
