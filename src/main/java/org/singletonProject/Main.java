@@ -19,6 +19,19 @@ public class Main {
             System.out.println("3. Exibir Contatos");
             System.out.println("4. Sair");
             System.out.print("Digite sua opção: ");
+
+            try {
+                option = scanner.nextInt();
+            } catch (InputMismatchException e) {
+                System.out.println("Por favor, digite um número inteiro válido.");
+                scanner.nextLine();
+                continue;
+            }
+
+
+
+
+
             option = scanner.nextInt();
             switch (option) {
                 case 1:
