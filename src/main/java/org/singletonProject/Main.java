@@ -1,4 +1,5 @@
 package org.singletonProject;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -20,13 +21,13 @@ public class Main {
             System.out.println("4. Sair");
             System.out.print("Digite sua opção: ");
 
-            try {
-                option = scanner.nextInt();
-            } catch (InputMismatchException e) {
-                System.out.println("Por favor, digite um número inteiro válido.");
-                scanner.nextLine();
-                continue;
-            }
+//            try {
+//                option = scanner.nextInt();
+//            } catch (InputMismatchException e) {
+//                System.out.println("Por favor, digite um número inteiro válido.");
+//                scanner.nextLine();
+//                continue;
+//            }
 
 
 
@@ -59,9 +60,9 @@ public class Main {
                 case 4:
                     System.out.println("Saindo...");
                     break;
-                case 5:
-                    listaTelefonica.testContatos();
-                    break;
+                //case 5:
+//                    listaTelefonica.testContatos();
+//                    break;
                 default:
                     System.out.println("Opção inválida, por favor tente novamente.");
             }

@@ -6,16 +6,6 @@ import java.util.List;
 
 public class ListaTelefonica {
 
-    public void testContatos(){
-        Contato a = new Contato("a","1");
-        Contato b = new Contato("b","2");
-        Contato c = new Contato("c","3");
-        this.contatos.add(a);
-        this.contatos.add(b);
-        this.contatos.add(c);
-        exibirContatos();
-    }
-
     private static volatile ListaTelefonica instance;
     private final List<Contato> contatos;
 
