@@ -17,6 +17,6 @@ O sistema apresenta uma lista telefônica, com funções de adicionar, consultar
 ## Tecnologias Utilizadas
 
 - Linguagem de Programação: Java
-- Padrão de projeto: Singleton
+- Padrão de projeto: Singleton Pattern
 - Controle de Versão: Git e GitHub
 - Hospedagem: MINHA MÁQUINA
