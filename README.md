@@ -8,7 +8,7 @@ Este é o repositório do projeto final da disciplina Padrões De Projeto. Neste
 - Edgar Neto (edgarneto789@gmail.com)
 - Paulo Neto (pauloneto6761@gmail.com)
 - Rafael Souza (rafaelss2053@gmail.com)
-- Yasmin Ribeiro (yar.fujii@gmail.com)
+- Yasmin Ribeiro  (yar.fujii@gmail.com)
 
 ## Descrição do Projeto
 
