@@ -12,7 +12,7 @@ Este é o repositório do projeto final da disciplina Padrões De Projeto. Neste
 
 ## Descrição do Projeto
 
-O siatema apresenta uma lista telefônica, com funcções de adicionar, consultar ou remover contatos, utilizando o padrão singleton.
+O sistema apresenta uma lista telefônica, com funções de adicionar, consultar ou remover contatos, utilizando o padrão singleton.
 
 ## Tecnologias Utilizadas
 
