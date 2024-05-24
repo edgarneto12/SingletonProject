@@ -1,0 +1,21 @@
+
+g
+7src/main/java/org/singletonProject/ListaTelefonica.java,7\2\7243211ff793e447725896dc089ff96fa0237b75
+_
+/src/main/java/org/singletonProject/Contato.java,d\c\dc2cbaa19e6a4ffda0de0f9e53417ca60fa99d65
+i
+9src/main/java/org/singletonProject/TestandoSingleton.java,e\e\ee88e80005f1e95be21ea8da348b1e8659c3c7fb
+\
+,src/main/java/org/singletonProject/Main.java,6\c\6ccdab50ba6f716da31adff24e5f38cc6f644ba6
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+_
+/src/main/java/org/singletonproject/Contato.java,c\3\c397882429e885d3886ae3bf25319ead960f0ced
+\
+,src/main/java/org/singletonproject/Main.java,5\d\5d2bf8cf9cc7e57267edb262f755f16ff9c1a5cf
+g
+7src/main/java/org/singletonproject/ListaTelefonica.java,f\b\fbdf46ccdfc1d3e6f67614ce5e650c2b90ded03f
+i
+9src/main/java/org/singletonproject/TestandoSingleton.java,d\3\d3ceaa720196e73b985718766f3a06773e57963c
